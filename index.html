@@ -31,7 +31,8 @@
     <div class="container w-container">
       <img class="image" sizes="(max-width: 479px) 24vw, 59px" src="logo.png" width="59"></div>
     <div class="nav-container w-container">
-      <nav class="nav-menu w-nav-menu" role="navigation"><a class="nav-link w-nav-link" href="/"><span>Home</span></a><a class="nav-link w-nav-link" href="quem-somos.html">Quem Somos</a>
+      <nav class="nav-menu w-nav-menu" role="navigation"
+      ><a class="nav-link w-nav-link" href="/"><span>Home</span></a><a class="nav-link w-nav-link" href="quem-somos.html">Quem Somos</a>
         <a
           class="nav-link w-nav-link" href="#faleconosco">Contato</a>
       </nav>
@@ -251,6 +252,21 @@
   </div>
   <div class="w-embed">
     <style>
+      @media (max-width:430px){
+        #modal-container{
+          right: 0px !important;
+          width: 100% !important;
+          background: #fff !important;
+          box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.3) !important;
+          height: auto !important;
+          padding: 0 !important;
+          font-family: arial,sans-serif !important;
+          font-size: 14px !important;
+          position: fixed !important;          
+          bottom: 0px !important;
+          z-index: 998 !important;
+        }
+      }
       .xxx {
         background: rgba(0, 0, 0, 0.05);
       }
